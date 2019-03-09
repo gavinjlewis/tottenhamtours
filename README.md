@@ -3,6 +3,7 @@
 Proto site that will hopefully go live fairly soon. I'm in the process of learning
   * Flexbox for CSS
   * JavaScript
+  * @media queries
   * GitHub
   * Github Desktop
   * TextMate
