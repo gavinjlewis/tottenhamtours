@@ -97,10 +97,10 @@ textarea {
    My custom styles
    ========================================================================== */
    
-  body {
-     max-width: 1500px;
-     margin: auto;
-   }
+body {
+   max-width: 1500px;
+   margin: auto;
+}
 
 #header{
   position: -webkit-sticky;
@@ -149,8 +149,8 @@ textarea {
 
 /*DROPDOWN STUFF*/
 
- .fas {
-   font-size:2em;
+.fas {
+  font-size:2em;
 }
 .dropdown {
   position: static;
@@ -161,13 +161,13 @@ textarea {
 
 .dropdown-content {
   text-align: right;
-    display: none;
-    position: absolute;
+  display: none;
+  position: absolute;
   background-color: #132257;
-    min-width: 150px;
-    padding: 12px 30px;
-    z-index: 1;
-    right: 0;
+  min-width: 150px;
+  padding: 12px 30px;
+  z-index: 1;
+  right: 0;
 }
 .dropdown-content a:hover {
   color: #596489;
@@ -195,8 +195,6 @@ textarea {
     display: none;
   }
   .dropdown {
-      /*display: flex;
-    justify-content: right;*/
     
   }
 
@@ -272,7 +270,6 @@ textarea {
 .tourscontainer{
   display: flex;
   flex-wrap: wrap;
-  /*align-items: center;*/
 }
 .tourscontainer > div {
   box-sizing: border-box;
@@ -289,8 +286,7 @@ textarea {
 }
 @media all and (min-width: 900px) {
   .tourscontainer {
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
   }
 }
 /*span styles*/
@@ -393,7 +389,7 @@ textarea {
   color: #FFF;
 }
 .footer a:hover {
-color: #596489;
+  color: #596489;
 }
 .footer h6{
   color: #909090;
