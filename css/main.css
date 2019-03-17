@@ -145,6 +145,9 @@ body {
 }
 .nav a:hover{
   color: #596489;
+  border-bottom: solid;
+  border-bottom-color: #fff;
+  
 }
 
 /*DROPDOWN STUFF*/
@@ -217,12 +220,13 @@ body {
   justify-content: center;
 }
 .pichead {
-  position: absolute;
-  color: #132257;
+  position: inherit;
+  color: #fff;
   font-family: "Helvetica Neue", "Helvetica-Neue", "HelveticaNeue";
+  font-size: 3em;
   text-align: center;
   font-weight: 700;
-  background-color: #cfd2dd;
+  background-color: #132257;
   padding: 5px 20px;
   opacity: 0.8;
   z-index: 0;
