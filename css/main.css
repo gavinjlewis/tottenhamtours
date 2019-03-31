@@ -274,6 +274,7 @@ body {
 .tourscontainer{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .tourscontainer > div {
   box-sizing: border-box;
